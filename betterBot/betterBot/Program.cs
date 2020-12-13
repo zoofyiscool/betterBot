@@ -26,7 +26,7 @@ namespace betterBot
                 .AddSingleton(_commands)
                 .BuildServiceProvider();
 
-            string token = "Nzg2MzU0Njc3NTM2MjYwMTM3.X9FL3A.Sxc5vgZ2aCXfVOSknVucaxaSCH8";
+            string token = "token";
 
             _client.Log += _client_Log;
 
